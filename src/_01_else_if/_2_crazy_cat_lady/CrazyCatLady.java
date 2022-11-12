@@ -18,7 +18,7 @@ public class CrazyCatLady {
 	int catAsInt = Integer.parseInt(cat);
 	if(catAsInt>2) {
 		JOptionPane.showMessageDialog(null, "You are a crazy cat lady");
-	} else if(catAsInt==0) {
+	}if(catAsInt==0) {
 	
 	}
 		
