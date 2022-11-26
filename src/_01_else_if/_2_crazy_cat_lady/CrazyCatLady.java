@@ -14,18 +14,18 @@ public class CrazyCatLady {
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 		//    Hint: You can use the && operator 
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-	String cat = JOptionPane.showInputDialog("How many cats do you have?");
-	int catAsInt = Integer.parseInt(cat);
-	if(catAsInt>2) {
-		JOptionPane.showMessageDialog(null, "You are a crazy cat lady");
-	}if(catAsInt==0) {
-	
-	}
-		
-		
-		
-	}
+		String cat = JOptionPane.showInputDialog("How many cats do you have?");
+		int catAsInt = Integer.parseInt(cat);
+		if(catAsInt>2) {
+			JOptionPane.showMessageDialog(null, "You are a crazy cat lady");
+		}if(catAsInt==0) {
+			JOptionPane.showMessageDialog(null, "Maybe you're just a dog person..");
+		}else {
+			JOptionPane.showMessageDialog(null, "You are a cat lover!!");
+		}
 
+
+	}
 	static void playVideo(String videoURL) {
 		try {
 			URI uri = new URI(videoURL);
